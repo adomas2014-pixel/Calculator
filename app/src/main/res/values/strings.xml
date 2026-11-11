@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- Header -->
+    <string name="mode_standard">Standard</string>
+
+    <!-- Memory row -->
+    <string name="btn_memory_clear">MC</string>
+    <string name="btn_memory_recall">MR</string>
+    <string name="btn_memory_add">M+</string>
+    <string name="btn_memory_subtract">M−</string>
+    <string name="btn_memory_store">MS</string>
+    <string name="btn_memory_list">M˅</string>
+
+    <!-- Keypad -->
+    <string name="btn_percent" formatted="false">%</string>
+    <string name="btn_clear_entry">CE</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_reciprocal">¹⁄ₓ</string>
+    <string name="btn_square">x²</string>
+    <string name="btn_square_root">²√x</string>
+    <string name="btn_divide">÷</string>
+    <string name="btn_multiply">×</string>
+    <string name="btn_subtract">−</string>
+    <string name="btn_add">+</string>
+    <string name="btn_negate">⁺⁄₋</string>
+    <!-- Also used as the decimal separator on the display. Must be one character. -->
+    <string name="btn_decimal">.</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+
+    <!-- Thousands separator on the display, e.g. "1,234". Must be one character.
+         For a space use " " (no-break space), e.g. Lithuanian "1 234,5". -->
+    <string name="number_grouping_separator">,</string>
+
+    <!-- Expression line, e.g. "sqr(5)". %1$s is the operand. -->
+    <string name="expr_square">sqr(%1$s)</string>
+    <string name="expr_square_root">√(%1$s)</string>
+    <string name="expr_reciprocal">1/(%1$s)</string>
+    <string name="expr_negate">negate(%1$s)</string>
+
+    <!-- Errors -->
+    <string name="error_divide_by_zero">Cannot divide by zero</string>
+    <string name="error_result_undefined">Result is undefined</string>
+    <string name="error_invalid_input">Invalid input</string>
+    <string name="error_overflow">Overflow</string>
+
+    <!-- History and memory panel -->
+    <string name="history_empty">There\'s no history yet</string>
+    <string name="memory_empty">There\'s nothing saved in memory</string>
+
+    <!-- Accessibility (icon buttons) -->
+    <string name="cd_menu">Open navigation</string>
+    <string name="cd_keep_on_top">Keep on top</string>
+    <string name="cd_history">History</string>
+    <string name="cd_backspace">Backspace</string>
+    <string name="cd_clear_history">Clear all history</string>
+    <string name="cd_clear_memory">Clear all memory</string>
+</resources>

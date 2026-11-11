@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kept from the project template. -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Windows 11 Calculator, light theme. -->
+    <color name="calc_background">#FFEFF2F6</color>
+    <color name="calc_text_primary">#FF1B1B1B</color>
+    <color name="calc_text_secondary">#FF616161</color>
+    <color name="calc_text_disabled">#FFA0A0A0</color>
+
+    <color name="calc_key_number">#FFFCFCFD</color>
+    <color name="calc_key_number_pressed">#FFF2F3F5</color>
+    <color name="calc_key_function">#FFF6F7F9</color>
+    <color name="calc_key_function_pressed">#FFEBECEE</color>
+    <color name="calc_key_stroke">#FFE3E5E8</color>
+
+    <color name="calc_accent">#FF005FB8</color>
+    <color name="calc_accent_pressed">#FF1F70C1</color>
+    <color name="calc_accent_stroke">#FF0A5AA6</color>
+    <color name="calc_on_accent">#FFFFFFFF</color>
+
+    <color name="calc_subtle_pressed">#14000000</color>
+    <color name="calc_panel">#FFF9F9F9</color>
+    <color name="calc_panel_stroke">#FFE5E5E5</color>
+    <color name="calc_scrim">#4D000000</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Same as values/themes.xml: the app stays light even in system dark mode. -->
+    <style name="Base.Theme.Calculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/calc_accent</item>
+        <item name="colorPrimaryDark">@color/calc_background</item>
+        <item name="colorAccent">@color/calc_accent</item>
+        <item name="android:windowBackground">@color/calc_background</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>
